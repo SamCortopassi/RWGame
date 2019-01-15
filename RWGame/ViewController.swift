@@ -26,15 +26,15 @@ class ViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
 
-    @IBAction func nocknock(_ sender: Any) {
-        let alert = UIAlertController(title: "who's there?", message: "Banana", preferredStyle: .alert)
-        
-        let action = UIAlertAction(title: "HAHAHA", style: .default, handler: nil)
-        
-        alert.addAction(action)
-        
-        present(alert, animated: true, completion: nil)
-    }
+//    @IBAction func nocknock(_ sender: Any) {
+//        let alert = UIAlertController(title: "who's there?", message: "Banana", preferredStyle: .alert)
+//
+//        let action = UIAlertAction(title: "HAHAHA", style: .default, handler: nil)
+//
+//        alert.addAction(action)
+//
+//        present(alert, animated: true, completion: nil)
+//    }
     
        
     
