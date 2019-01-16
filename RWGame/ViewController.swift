@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sliderMoved(_ slider: UISlider) {
-        print("the value of the slider is now: \(slider.value)")
+        let roundedValue = slider.value.rounded()
         currentValue = Int(slider.value)
     }
 
