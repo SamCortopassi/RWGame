@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
     var currentValue: Int = 0
     
+    @IBOutlet weak var slider: UISlider!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let roundedValue = slider.value.rounded()
+        currentValue = Int(slider.value)
     }
     
     @IBAction func showAlert() {
