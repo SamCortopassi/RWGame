@@ -19,7 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let roundedValue = slider.value.rounded()
         currentValue = Int(roundedValue)
-        targetValue = Int.random(in: 1...100)
+        startNewRound()
+
+//            Int.random(in: 1...100)
     }
     
     @IBAction func showAlert() {
@@ -32,13 +34,19 @@ class ViewController: UIViewController {
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
+        
+        startNewRound()
     }
 
     @IBAction func sliderMoved(_ slider: UISlider) {
         let roundedValue = slider.value.rounded()
         currentValue = Int(slider.value)
     }
-
+    func startNewRound() {
+        targetValue = Int(arc4random_uniform(100))+1
+        currentValue = 50
+        slider.value = Float(currentValue)
+    }
 
 }
 
