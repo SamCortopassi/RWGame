@@ -90,6 +90,9 @@
                                 <rect key="frame" x="17" y="242" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startNewGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="0I6-57-Bt9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZt-on-yOG">
                                 <rect key="frame" x="448" y="25" width="29" height="21"/>
@@ -107,6 +110,7 @@
                         <outlet property="scoreLabel" destination="rOT-zE-Llr" id="77t-wT-GXK"/>
                         <outlet property="slider" destination="8rv-i3-ZX1" id="Zci-ig-wlw"/>
                         <outlet property="targetLabel" destination="YZt-on-yOG" id="f8O-k9-8Uw"/>
+                        <outlet property="view" destination="GVw-Md-9Vh" id="75x-zD-nUD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
