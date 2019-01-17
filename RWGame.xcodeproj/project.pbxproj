@@ -13,6 +13,7 @@
 		662CEF8321EBF4F9009330BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662CEF8221EBF4F9009330BC /* Assets.xcassets */; };
 		662CEF8621EBF4F9009330BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662CEF8421EBF4F9009330BC /* LaunchScreen.storyboard */; };
 		66B540C121F00160009E9026 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B540C021F00160009E9026 /* AboutViewController.swift */; };
+		66B540C321F00553009E9026 /* AuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B540C221F00553009E9026 /* AuthorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		662CEF8521EBF4F9009330BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662CEF8721EBF4F9009330BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66B540C021F00160009E9026 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		66B540C221F00553009E9026 /* AuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				662CEF7B21EBF4F7009330BC /* AppDelegate.swift */,
 				662CEF7D21EBF4F7009330BC /* ViewController.swift */,
 				662CEF7F21EBF4F7009330BC /* Main.storyboard */,
+				66B540C221F00553009E9026 /* AuthorViewController.swift */,
 				66B540C021F00160009E9026 /* AboutViewController.swift */,
 				662CEF8221EBF4F9009330BC /* Assets.xcassets */,
 				662CEF8421EBF4F9009330BC /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				66B540C121F00160009E9026 /* AboutViewController.swift in Sources */,
 				662CEF7E21EBF4F7009330BC /* ViewController.swift in Sources */,
 				662CEF7C21EBF4F7009330BC /* AppDelegate.swift in Sources */,
+				66B540C321F00553009E9026 /* AuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
